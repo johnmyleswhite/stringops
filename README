@@ -1,0 +1,30 @@
+An R Library for Manipulating Strings
+================================================
+
+This library currently defines a set of functions that let you convert strings into their title case form. The code is roughly based on Sam Souder's Ruby extension, titlecase, which you can find at,
+
+	http://github.com/samsouder/titlecase/tree/master
+
+Sam's code, in turn, was based on code by John Gruber, which you can find at,
+
+	http://daringfireball.net/2008/05/title_case
+	
+But any bugs can be attributed to my (mis)?interpretation of Sam and John's code.
+
+Currently there's a non-functional test suite using RUnit that I'd like to get working. I'd welcome any suggestions. Similarly, I'd be glad to incorporate any and all features that would help to make this a true R string operations library, rather than just another one-off hack.
+
+John Myles White <jmw@johnmyleswhite.com>
+Created February 25, 2009
+
+Ruby version created by:
+
+  Sam Souder
+  May 22, 2008
+
+Perl version created by:
+
+  John Gruber  
+  http://daringfireball.net/  
+  May 10 2008
+
+License: http://www.opensource.org/licenses/mit-license.php
